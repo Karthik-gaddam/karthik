@@ -1,0 +1,43 @@
+.bannerBgImage{
+height: 100vh;
+background: url("/images/darklaptop.jpg");
+background-size: cover;
+position: relative;
+}
+
+.bannerText{
+text-align: right;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+}
+
+.bannerTittle{
+font-size: 4rem;
+
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+
+    cursor: pointer;
+}
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid yellowgreen;
+}
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.ima-fluid{
+    background-color: palevioletred;
+}
+.card-img-top{
+    background-color: palevioletred;
+}
